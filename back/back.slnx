@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="back/back.csproj" />
+  <Project Path="DataBaseLayer/DataBaseLayer.csproj" />
+</Solution>
