@@ -26,18 +26,36 @@ namespace DataBaseLayer
             throw  new NotImplementedException();
         }
 
-        public async Task<ToDo> GetTaskByIdAsync(string id)
+        public async Task<ToDo> GetTaskByIdAsync(string id) //7E84325F-E597-4CE7-8087-5CB3BD04BBC3
         {
             using (IDbConnection db = new SqlConnection(connstring))
             {
-                var response = await db.QueryAsync<ToDo>("SELECT * FROM Task WHERE ID = @id", new { id });
+                var response = await db.QueryAsync<ToDo>("SELECT * FROM Task WHERE ID = @id", new { @id = id });
                 return response.FirstOrDefault();
             }
         }
 
-        public Task<bool> PutTaskAsync(Task task)
+        public async Task<bool> PutTaskAsync(ToDo task)
         {
-            throw new NotImplementedException();
+            int rows;
+
+            using (IDbConnection db = new SqlConnection(connstring))
+            {
+                 rows = await db.ExecuteAsync(
+    "INSERT INTO Task (ID, Title, Description, StartDate, CreateDate, Status, EndDate) " +
+    "VALUES (@id, @title, @desc, @start, @create, @stat, @end)",
+    new
+    {
+        @id = task.Id,
+        @title = task.Title,
+        @desc = task.Description,
+        @start = task.StartTime,
+        @create = task.CreateTime,
+        @stat = task.Status,
+        @end = task.EndTime
+    });
+            }
+            return rows > 0;
         }
 
         public Task<bool> UpdateTaskAsync()

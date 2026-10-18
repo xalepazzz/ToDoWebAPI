@@ -9,7 +9,7 @@ namespace DataBaseLayer
     public interface ITaskRepository
     {
         public Task<ToDo> GetTaskByIdAsync (string id);
-        public Task<bool> PutTaskAsync(Task task);
+        public Task<bool> PutTaskAsync(ToDo task );
         public Task<bool> UpdateTaskAsync();
         public Task<bool> DeleteTaskAsync(string id);
 

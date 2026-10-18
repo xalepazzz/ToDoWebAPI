@@ -6,13 +6,13 @@ namespace DataBaseLayer.Entities
 {
     public class ToDo
     {
-        Guid Id { get; set; }
-        string Title { get; set; }
-        string Description { get; set; } = string.Empty;
-        DateTime StartTime { get; set; }
-        DateTime CreateTime { get; set; } = DateTime.Now;
-        bool Status { get; set; }
-        DateTime EndTime { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public string Title { get; set; }
+        public string Description { get; set; } = string.Empty;
+        public DateTime StartTime { get; set; }
+        public DateTime CreateTime { get; set; } = DateTime.Now;
+        public bool Status { get; set; } = false;
+        public DateTime? EndTime { get; set; } = null;
 
 
     }
