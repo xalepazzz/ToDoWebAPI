@@ -8,8 +8,8 @@ namespace DataBaseLayer.Entities
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string Title { get; set; }
-        public string Description { get; set; } = string.Empty;
-        public DateTime StartTime { get; set; }
+        public string? Description { get; set; } = null;
+        public DateTime? StartTime { get; set; } = null;
         public DateTime CreateTime { get; set; } = DateTime.Now;
         public bool Status { get; set; } = false;
         public DateTime? EndTime { get; set; } = null;

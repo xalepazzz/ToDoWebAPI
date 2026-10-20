@@ -8,10 +8,12 @@ namespace DataBaseLayer
 {
     public interface ITaskRepository
     {
-        public Task<ToDo> GetTaskByIdAsync (string id);
-        public Task<bool> PutTaskAsync(ToDo task );
-        public Task<bool> UpdateTaskAsync();
-        public Task<bool> DeleteTaskAsync(string id);
+        public Task<List<ToDo>> GetAllTasksAsync();
+        public Task<ToDo> GetTaskByIdAsync (Guid id);
+        public Task<bool> PostTaskAsync(ToDo task );
+        public Task<bool> UpdateTaskAsync(ToDo newTask);
+        public Task<bool> ChangeStatusAsync(Guid id, bool status);
+        public Task<bool> DeleteTaskAsync(Guid id);
 
     }
 }
