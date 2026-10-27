@@ -12,4 +12,8 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.12" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BusienessLayer\BusienessLayer.csproj" />
+  </ItemGroup>
+
 </Project>

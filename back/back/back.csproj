@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BusienessLayer\BusienessLayer.csproj" />
     <ProjectReference Include="..\DataBaseLayer\DataBaseLayer.csproj" />
   </ItemGroup>
 

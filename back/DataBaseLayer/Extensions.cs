@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using BusienessLayer.Interfaces;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ namespace DataBaseLayer
 
         public static void AddTaskRepository(this IServiceCollection _service)
         {
-            _service.AddSingleton<ITaskRepository, TaskRepository>();
+            _service.AddScoped<ITaskRepository, TaskRepository>();
         }
     }
 }

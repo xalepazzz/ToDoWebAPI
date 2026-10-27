@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "D:\\Projects\\ToDoWebAPI\\back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|d:\\projects\\todowebapi\\back\\back\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|d:\\projects\\todowebapi\\back\\databaselayer\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|d:\\projects\\todowebapi\\back\\databaselayer\\entities\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\entities\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|d:\\projects\\todowebapi\\back\\busienesslayer\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|solutionrelative:busienesslayer\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|d:\\projects\\todowebapi\\back\\databaselayer\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|d:\\projects\\todowebapi\\back\\databaselayer\\databaselayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\databaselayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|d:\\projects\\todowebapi\\back\\databaselayer\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|d:\\projects\\todowebapi\\back\\busienesslayer\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|solutionrelative:busienesslayer\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|d:\\projects\\todowebapi\\back\\busienesslayer\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|solutionrelative:busienesslayer\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|d:\\projects\\todowebapi\\back\\back\\middlewares\\exceptionlogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\middlewares\\exceptionlogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|d:\\projects\\todowebapi\\back\\back\\middlewares\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\middlewares\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|d:\\projects\\todowebapi\\back\\back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|d:\\projects\\todowebapi\\back\\back\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|d:\\projects\\todowebapi\\back\\back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -33,6 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|d:\\projects\\todowebapi\\back\\databaselayer\\dbprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\dbprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|d:\\projects\\todowebapi\\back\\databaselayer\\databaselayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\databaselayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|d:\\projects\\todowebapi\\back\\databaselayer\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,20 +66,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLayer\\TaskRepository.cs",
               "RelativeDocumentMoniker": "DataBaseLayer\\TaskRepository.cs",
               "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLayer\\TaskRepository.cs",
               "RelativeToolTip": "DataBaseLayer\\TaskRepository.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAUwGMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAUwFMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T13:19:00.016Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BusienessLayer\\DTO\\ToDoDTO.cs",
+              "RelativeDocumentMoniker": "BusienessLayer\\DTO\\ToDoDTO.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BusienessLayer\\DTO\\ToDoDTO.cs",
+              "RelativeToolTip": "BusienessLayer\\DTO\\ToDoDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:41:27.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BusienessLayer\\ITaskService.cs",
+              "RelativeDocumentMoniker": "BusienessLayer\\ITaskService.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BusienessLayer\\ITaskService.cs",
+              "RelativeToolTip": "BusienessLayer\\ITaskService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:24:24.738Z",
               "EditorCaption": ""
             },
             {
@@ -68,33 +114,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataBaseLayer",
+              "DocumentIndex": 6,
+              "Title": "ExceptionLogMiddleware.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\back\\Middlewares\\ExceptionLogMiddleware.cs",
+              "RelativeDocumentMoniker": "back\\Middlewares\\ExceptionLogMiddleware.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\back\\Middlewares\\ExceptionLogMiddleware.cs",
+              "RelativeToolTip": "back\\Middlewares\\ExceptionLogMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:56:16.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BusienessLayer\\TaskService.cs",
+              "RelativeDocumentMoniker": "BusienessLayer\\TaskService.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BusienessLayer\\TaskService.cs",
+              "RelativeToolTip": "BusienessLayer\\TaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:06:16.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\back\\Middlewares\\Logger.cs",
+              "RelativeDocumentMoniker": "back\\Middlewares\\Logger.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\back\\Middlewares\\Logger.cs",
+              "RelativeToolTip": "back\\Middlewares\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:05:21.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DataBaseLayer.csproj",
               "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLayer\\DataBaseLayer.csproj",
               "RelativeDocumentMoniker": "DataBaseLayer\\DataBaseLayer.csproj",
               "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLayer\\DataBaseLayer.csproj",
               "RelativeToolTip": "DataBaseLayer\\DataBaseLayer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-19T13:36:09.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T13:36:09.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "TaskController.cs",
               "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\back\\TaskController.cs",
               "RelativeDocumentMoniker": "back\\TaskController.cs",
               "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\back\\TaskController.cs",
               "RelativeToolTip": "back\\TaskController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAADwv0UAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAADwv2AAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T14:42:37.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Extensions.cs",
               "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLayer\\Extensions.cs",
               "RelativeDocumentMoniker": "DataBaseLayer\\Extensions.cs",
@@ -106,64 +190,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\back\\Program.cs",
               "RelativeDocumentMoniker": "back\\Program.cs",
               "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\back\\Program.cs",
               "RelativeToolTip": "back\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T14:10:03.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ITaskRepository.cs",
               "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLayer\\ITaskRepository.cs",
               "RelativeDocumentMoniker": "DataBaseLayer\\ITaskRepository.cs",
               "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLayer\\ITaskRepository.cs",
               "RelativeToolTip": "DataBaseLayer\\ITaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T13:14:28.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\back\\appsettings.json",
               "RelativeDocumentMoniker": "back\\appsettings.json",
               "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\back\\appsettings.json",
               "RelativeToolTip": "back\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-13T12:57:39.487Z"
+              "WhenOpened": "2026-10-13T12:57:39.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ToDo.cs",
               "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLayer\\Entities\\ToDo.cs",
               "RelativeDocumentMoniker": "DataBaseLayer\\Entities\\ToDo.cs",
               "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLayer\\Entities\\ToDo.cs",
               "RelativeToolTip": "DataBaseLayer\\Entities\\ToDo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T12:51:49.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "DBProvider.cs",
               "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLayer\\DBProvider.cs",
               "RelativeDocumentMoniker": "DataBaseLayer\\DBProvider.cs",
               "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLayer\\DBProvider.cs",
               "RelativeToolTip": "DataBaseLayer\\DBProvider.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T12:19:48.251Z"
             }

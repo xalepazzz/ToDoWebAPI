@@ -1,14 +1,13 @@
 ﻿using Dapper;
-using DataBaseLayer.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
-using System;
+using BusienessLayer.Interfaces;
+using BusienessLayer.Entities;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
+
 
 namespace DataBaseLayer
 {
@@ -22,25 +21,25 @@ namespace DataBaseLayer
             connstring = conf.GetConnectionString("MSSQL");
         }
 
-        public async Task<bool> ChangeStatusAsync(Guid id, bool status)
+        public async Task<bool> ChangeStatusAsync(Guid id, Guid userId, bool status)
         {
             using (IDbConnection db = new SqlConnection(connstring))
             {
-                int response = await db.ExecuteAsync("UPDATE Task SET Status = @stat WHERE ID = @id", new { @id = id, @stat = status});
+                int response = await db.ExecuteAsync("UPDATE Task SET Status = @stat WHERE ID = @id AND UserID = @userID", new { @id = id, @stat = status, @userID = userId});
                 return response > 0;
             }
         }
 
-        public async Task<bool> DeleteTaskAsync(Guid id)
+        public async Task<bool> DeleteTaskAsync(Guid id, Guid userId)
         {
             using (IDbConnection db = new SqlConnection(connstring))
             {
-                int response = await db.ExecuteAsync("DELETE FROM Task WHERE ID = @id", new { @id = id});
+                int response = await db.ExecuteAsync("DELETE FROM Task WHERE ID = @id AND UserID = @userID", new { @id = id, @userID = userId});
                 return response > 0;
             }
         }
 
-        public async Task<List<ToDo>> GetAllTasksAsync()
+        public async Task<List<ToDo>> GetAllTasksAsync(Guid userId)
         {
             using (IDbConnection db = new SqlConnection(connstring))
             {
@@ -49,11 +48,11 @@ namespace DataBaseLayer
              }
         }
 
-        public async Task<ToDo> GetTaskByIdAsync(Guid id) //7E84325F-E597-4CE7-8087-5CB3BD04BBC3
+        public async Task<ToDo> GetTaskByIdAsync(Guid id, Guid userId) //7E84325F-E597-4CE7-8087-5CB3BD04BBC3
         {
             using (IDbConnection db = new SqlConnection(connstring))
             {
-                var response = await db.QueryAsync<ToDo>("SELECT * FROM Task WHERE ID = @id", new { @id = id });
+                var response = await db.QueryAsync<ToDo>("SELECT * FROM Task WHERE ID = @id AND UserID = @userID", new { @id = id, @userID = userId });
                 return response.FirstOrDefault();
             }
         }
@@ -65,11 +64,12 @@ namespace DataBaseLayer
             using (IDbConnection db = new SqlConnection(connstring))
             {
                  rows = await db.ExecuteAsync(
-    "INSERT INTO Task (ID, Title, Description, StartDate, CreateDate, Status, EndDate) " +
+    "INSERT INTO Task (ID, UserID, Title, Description, StartDate, CreateDate, Status, EndDate) " +
     "VALUES (@id, @title, @desc, @start, @create, @stat, @end)",
     new
     {
         @id = task.Id,
+        @userId = task.UserId,
         @title = task.Title,
         @desc = task.Description,
         @start = task.StartTime,
@@ -85,11 +85,12 @@ namespace DataBaseLayer
         {
             using (IDbConnection db = new SqlConnection(connstring))
             {
-                ToDo oldTask = await GetTaskByIdAsync(newTask.Id);
-                int response = await db.ExecuteAsync("UPDATE Task SET Title = @title, Description = @desc, StartDate = @start, EndDate = @end WHERE ID = @id",
+                ToDo oldTask = await GetTaskByIdAsync(newTask.Id, newTask.UserId);
+                int response = await db.ExecuteAsync("UPDATE Task SET Title = @title, Description = @desc, StartDate = @start, EndDate = @end WHERE ID = @id AND UserID = @userID",
                     new
                     {
                         @id = newTask.Id,
+                        @userId = newTask.UserId,
                         @title = newTask.Title == null ? oldTask.Title : newTask.Title,
                         @desc = newTask.Description == null ? oldTask.Description : newTask.Description,
                         @start = newTask.StartTime == null ? oldTask.StartTime : newTask.StartTime,
