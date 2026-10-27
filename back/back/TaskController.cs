@@ -1,4 +1,7 @@
-﻿using BusienessLayer.Interfaces;
+﻿using back.Mapping;
+using BusienessLayer.DTO;
+using BusienessLayer.Entities;
+using BusienessLayer.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace back
@@ -14,11 +17,11 @@ namespace back
         }
 
         [HttpGet]
-        public async Task<ActionResult> GetAllTasks()
+        public async Task<ActionResult> GetAllTasks(Guid userId)
         {
             try
             {
-                return Ok(await _serv.GetAllTasksAsync());
+                return Ok(ToDoDtoMapping.ToDtoList(await _serv.GetAllTasksAsync(userId)));
             }
             catch (Exception ex)
             {
@@ -28,12 +31,13 @@ namespace back
         }
 
         [HttpGet("{id:guid}")]
-        public async Task<ActionResult> GetTaskById(Guid id)
+        public async Task<ActionResult> GetTaskById(Guid id, Guid userId)
         {
             try
             {
-                var task = await _serv.GetTaskByIdAsync(id);
-                return Ok(task);
+                var task = await _serv.GetTaskByIdAsync(id, userId);
+                
+                return Ok(ToDoDtoMapping.ToDto(task));
             }
             catch (Exception ex)
             {
@@ -42,11 +46,11 @@ namespace back
         }
 
         [HttpPost]
-        public async Task<ActionResult> PostTaskById(string title, string? description, string startTime)
+        public async Task<ActionResult> PostTaskById(Guid userId, string title, string? description, string startDate, string endDate)
         {
             try
             {
-                var task = await _serv.PostTaskAsync(new DataBaseLayer.Entities.ToDo { Title = title, Description = description, StartTime = DateTime.Parse(startTime), EndTime = null });
+                var task = await _serv.PostTaskAsync(userId, title, description, DateTime.Parse(startDate), DateTime.Parse(endDate));
                 return Ok(task);
             }
             catch (Exception ex)
@@ -56,7 +60,7 @@ namespace back
         }
 
         [HttpPut]
-        public async Task<ActionResult> PutTaskAync(Guid id, string? title, string? description, DateTime? startDate, DateTime? endDate)
+        public async Task<ActionResult> PutTaskAync(Guid id, Guid userId, string? title, string? description, DateTime? startDate, DateTime? endDate)
         {
             
             try
@@ -65,7 +69,7 @@ namespace back
                 {
                     
                 }
-                var newToDo = await _serv.UpdateTaskAsync(new DataBaseLayer.Entities.ToDo { Id = id, Title = title, Description = description, EndTime = endDate });
+                var newToDo = await _serv.UpdateTaskAsync(id, userId, title, description, startDate, endDate);
                 return Ok(newToDo);
             }
             catch (Exception ex)
@@ -75,11 +79,11 @@ namespace back
         }
 
         [HttpPatch]
-        public async Task<ActionResult> UpdateTaskStatusAsync(Guid id, bool stat)
+        public async Task<ActionResult> UpdateTaskStatusAsync(Guid id, Guid userId, bool stat)
         {
             try
             {
-                var response = await _serv.ChangeStatusAsync(id, stat);
+                var response = await _serv.ChangeStatusAsync(id, userId, stat);
                 return Ok();
             }
             catch (Exception ex)
@@ -89,17 +93,15 @@ namespace back
         }
 
             [HttpDelete]
-            public async Task<ActionResult> DeleteTaskById(Guid id)
+            public async Task<ActionResult> DeleteTaskById(Guid id, Guid userId)
             {
                 try
-                {
-                throw new Exception();
-                    var response = await _serv.DeleteTaskAsync(id);
+                { 
+                    var response = await _serv.DeleteTaskAsync(id, userId);
                     return Ok(response);
                 }
                 catch (Exception ex)
                 {
-                throw new Exception("TestException");
                     return BadRequest(ex.Message);
                 }
 
