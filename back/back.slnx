@@ -1,5 +1,12 @@
 <Solution>
-  <Project Path="back/back.csproj" />
-  <Project Path="BusienessLayer/BusienessLayer.csproj" Id="0e88d932-496a-403f-9261-a12d21b6b362" />
-  <Project Path="DataBaseLayer/DataBaseLayer.csproj" />
+  <Folder Name="/AuthService/">
+    <Project Path="Auth/Auth.csproj" Id="5ca54426-98f8-498f-9a78-e4a4e00af388" />
+    <Project Path="BuisenessLogic/BuisenessLogic.csproj" Id="0d6cf347-c232-4d7d-9b26-5a5829993d7e" />
+    <Project Path="DataBaseLogic/DataBaseLogic.csproj" Id="6c3886ed-171d-43f7-bc85-5da87efd5563" />
+  </Folder>
+  <Folder Name="/BusinessService/">
+    <Project Path="back/back.csproj" />
+    <Project Path="BusienessLayer/BusienessLayer.csproj" Id="0e88d932-496a-403f-9261-a12d21b6b362" />
+    <Project Path="DataBaseLayer/DataBaseLayer.csproj" />
+  </Folder>
 </Solution>

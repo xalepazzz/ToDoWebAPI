@@ -21,7 +21,8 @@ namespace back
         {
             try
             {
-                return Ok(ToDoDtoMapping.ToDtoList(await _serv.GetAllTasksAsync(userId)));
+                var response = await _serv.GetAllTasksAsync(userId);
+                return Ok(response.ToDtoList());
             }
             catch (Exception ex)
             {
@@ -37,7 +38,7 @@ namespace back
             {
                 var task = await _serv.GetTaskByIdAsync(id, userId);
                 
-                return Ok(ToDoDtoMapping.ToDto(task));
+                return Ok(task.ToDto());
             }
             catch (Exception ex)
             {

@@ -18,7 +18,7 @@ namespace back.Mapping
             };
         }
 
-        public static async Task<List<ToDoDto>> ToDtoList(List<ToDo> toDoList)
+        public static async Task<List<ToDoDto>> ToDtoList(this List<ToDo> toDoList)
         {
             return toDoList.Select(t => t.ToDto()).ToList();
         }
