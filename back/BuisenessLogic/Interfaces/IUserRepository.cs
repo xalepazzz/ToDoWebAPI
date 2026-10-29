@@ -8,11 +8,14 @@ namespace BuisenessLogic.Interfaces
 {
     public interface IUserRepository
     {
-        Task<bool> CreateUserAsync(User user );
-        Task<bool> DeleteUser(User user);
-        Task<User> GetUserById(Guid Id);
-        Task<List<User>> GetAllUsers();
-        Task<bool> UpdateUser();
+        public Task<bool> CreateUserAsync(User user);
+        public Task<bool> DeleteUser(User user);
+        public Task<bool> UpdateUser(User newUser);
+        public Task<User?> GetUserById(Guid id);
+        public Task<User?> GetUserByNickName(string userId);
+        public Task<User?> GetUserByEmail(string email);
+        public Task<List<User>> GetAllUsers();
+       
         
     }
 }

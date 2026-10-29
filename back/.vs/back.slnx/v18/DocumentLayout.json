@@ -1,98 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\arkad\\ToDoWebAPI\\back\\",
+  "WorkspaceRootPath": "D:\\Projects\\ToDoWebAPI\\back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|c:\\users\\arkad\\todowebapi\\back\\buisenesslogic\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|solutionrelative:buisenesslogic\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|c:\\users\\arkad\\todowebapi\\back\\buisenesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|solutionrelative:buisenesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|c:\\users\\arkad\\todowebapi\\back\\buisenesslogic\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|d:\\projects\\todowebapi\\back\\buisenesslogic\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|solutionrelative:buisenesslogic\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|c:\\users\\arkad\\todowebapi\\back\\buisenesslogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|d:\\projects\\todowebapi\\back\\buisenesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|solutionrelative:buisenesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|d:\\projects\\todowebapi\\back\\buisenesslogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|solutionrelative:buisenesslogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|c:\\users\\arkad\\todowebapi\\back\\busienesslayer\\entities\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|solutionrelative:busienesslayer\\entities\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|c:\\users\\arkad\\todowebapi\\back\\buisenesslogic\\buisenesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|solutionrelative:buisenesslogic\\buisenesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C3886ED-171D-43F7-BC85-5DA87EFD5563}|DataBaseLogic\\DataBaseLogic.csproj|c:\\users\\arkad\\todowebapi\\back\\databaselogic\\databaselogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6C3886ED-171D-43F7-BC85-5DA87EFD5563}|DataBaseLogic\\DataBaseLogic.csproj|solutionrelative:databaselogic\\databaselogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C3886ED-171D-43F7-BC85-5DA87EFD5563}|DataBaseLogic\\DataBaseLogic.csproj|c:\\users\\arkad\\todowebapi\\back\\databaselogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C3886ED-171D-43F7-BC85-5DA87EFD5563}|DataBaseLogic\\DataBaseLogic.csproj|solutionrelative:databaselogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|c:\\users\\arkad\\todowebapi\\back\\back\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|c:\\users\\arkad\\todowebapi\\back\\back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|c:\\users\\arkad\\todowebapi\\back\\back\\mapping\\tododtomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\mapping\\tododtomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|c:\\users\\arkad\\todowebapi\\back\\back\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|c:\\users\\arkad\\todowebapi\\back\\busienesslayer\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|solutionrelative:busienesslayer\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|c:\\users\\arkad\\todowebapi\\back\\busienesslayer\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|solutionrelative:busienesslayer\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\arkad\\todowebapi\\back\\databaselayer\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\arkad\\todowebapi\\back\\databaselayer\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|c:\\users\\arkad\\todowebapi\\back\\busienesslayer\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|solutionrelative:busienesslayer\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|c:\\users\\arkad\\todowebapi\\back\\busienesslayer\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E88D932-496A-403F-9261-A12D21B6B362}|BusienessLayer\\BusienessLayer.csproj|solutionrelative:busienesslayer\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|c:\\users\\arkad\\todowebapi\\back\\back\\middlewares\\exceptionlogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\middlewares\\exceptionlogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|c:\\users\\arkad\\todowebapi\\back\\back\\logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|c:\\users\\arkad\\todowebapi\\back\\back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\arkad\\todowebapi\\back\\databaselayer\\dbprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\dbprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\arkad\\todowebapi\\back\\databaselayer\\databaselayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\databaselayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|d:\\projects\\todowebapi\\back\\buisenesslogic\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|solutionrelative:buisenesslogic\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,297 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLayer\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\TaskRepository.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLayer\\TaskRepository.cs",
-              "RelativeToolTip": "DataBaseLayer\\TaskRepository.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAQwGcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "BuisenessLogic\\Entities\\User.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Entities\\User.cs",
+              "RelativeToolTip": "BuisenessLogic\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T13:19:00.016Z",
-              "IsPinned": true
+              "WhenOpened": "2026-10-28T15:15:06.527Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "BuisenessLogic\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "BuisenessLogic\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\UserService.cs",
+              "RelativeDocumentMoniker": "BuisenessLogic\\UserService.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\UserService.cs",
+              "RelativeToolTip": "BuisenessLogic\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T11:22:46.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "BuisenessLogic\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "BuisenessLogic\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T11:22:24.822Z",
+              "WhenOpened": "2026-10-28T15:08:30.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BuisenessLogic\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "BuisenessLogic\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BuisenessLogic\\Entities\\User.cs",
-              "RelativeToolTip": "BuisenessLogic\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "BuisenessLogic\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "BuisenessLogic\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T11:08:48.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-28T14:59:37.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BuisenessLogic",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BuisenessLogic\\BuisenessLogic.csproj",
-              "RelativeDocumentMoniker": "BuisenessLogic\\BuisenessLogic.csproj",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BuisenessLogic\\BuisenessLogic.csproj",
-              "RelativeToolTip": "BuisenessLogic\\BuisenessLogic.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-28T11:07:40.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DataBaseLogic",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLogic\\DataBaseLogic.csproj",
-              "RelativeDocumentMoniker": "DataBaseLogic\\DataBaseLogic.csproj",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLogic\\DataBaseLogic.csproj",
-              "RelativeToolTip": "DataBaseLogic\\DataBaseLogic.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-28T11:07:17.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLogic\\Class1.cs",
-              "RelativeDocumentMoniker": "DataBaseLogic\\Class1.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLogic\\Class1.cs",
-              "RelativeToolTip": "DataBaseLogic\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "BuisenessLogic\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "BuisenessLogic\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T11:06:47.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BuisenessLogic\\UserService.cs",
-              "RelativeDocumentMoniker": "BuisenessLogic\\UserService.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BuisenessLogic\\UserService.cs",
-              "RelativeToolTip": "BuisenessLogic\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T11:06:28.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ToDo.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BusienessLayer\\Entities\\ToDo.cs",
-              "RelativeDocumentMoniker": "BusienessLayer\\Entities\\ToDo.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BusienessLayer\\Entities\\ToDo.cs",
-              "RelativeToolTip": "BusienessLayer\\Entities\\ToDo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T12:11:17.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ToDoDtoMapping.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\Mapping\\ToDoDtoMapping.cs",
-              "RelativeDocumentMoniker": "back\\Mapping\\ToDoDtoMapping.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\Mapping\\ToDoDtoMapping.cs",
-              "RelativeToolTip": "back\\Mapping\\ToDoDtoMapping.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBQAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T14:51:17.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ToDoDto.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\DTO\\ToDoDto.cs",
-              "RelativeDocumentMoniker": "back\\DTO\\ToDoDto.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\DTO\\ToDoDto.cs",
-              "RelativeToolTip": "back\\DTO\\ToDoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T14:43:18.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ITaskService.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BusienessLayer\\Interfaces\\ITaskService.cs",
-              "RelativeDocumentMoniker": "BusienessLayer\\Interfaces\\ITaskService.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BusienessLayer\\Interfaces\\ITaskService.cs",
-              "RelativeToolTip": "BusienessLayer\\Interfaces\\ITaskService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAB1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-25T13:24:24.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\TaskController.cs",
-              "RelativeDocumentMoniker": "back\\TaskController.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\TaskController.cs",
-              "RelativeToolTip": "back\\TaskController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T14:42:37.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\Program.cs",
-              "RelativeDocumentMoniker": "back\\Program.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\Program.cs",
-              "RelativeToolTip": "back\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T14:10:03.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ITaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BusienessLayer\\Interfaces\\ITaskRepository.cs",
-              "RelativeDocumentMoniker": "BusienessLayer\\Interfaces\\ITaskRepository.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BusienessLayer\\Interfaces\\ITaskRepository.cs",
-              "RelativeToolTip": "BusienessLayer\\Interfaces\\ITaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T12:11:28.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ExceptionLogMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\Middlewares\\ExceptionLogMiddleware.cs",
-              "RelativeDocumentMoniker": "back\\Middlewares\\ExceptionLogMiddleware.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\Middlewares\\ExceptionLogMiddleware.cs",
-              "RelativeToolTip": "back\\Middlewares\\ExceptionLogMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-25T09:56:16.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BusienessLayer\\Extensions.cs",
-              "RelativeDocumentMoniker": "BusienessLayer\\Extensions.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BusienessLayer\\Extensions.cs",
-              "RelativeToolTip": "BusienessLayer\\Extensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T13:52:09.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BusienessLayer\\TaskService.cs",
-              "RelativeDocumentMoniker": "BusienessLayer\\TaskService.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\BusienessLayer\\TaskService.cs",
-              "RelativeToolTip": "BusienessLayer\\TaskService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAQwEYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T10:06:16.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Logger.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\Logger\\Logger.cs",
-              "RelativeDocumentMoniker": "back\\Logger\\Logger.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\Logger\\Logger.cs",
-              "RelativeToolTip": "back\\Logger\\Logger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T10:05:21.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DataBaseLayer.csproj",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLayer\\DataBaseLayer.csproj",
-              "RelativeDocumentMoniker": "DataBaseLayer\\DataBaseLayer.csproj",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLayer\\DataBaseLayer.csproj",
-              "RelativeToolTip": "DataBaseLayer\\DataBaseLayer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-19T13:36:09.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLayer\\Extensions.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Extensions.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLayer\\Extensions.cs",
-              "RelativeToolTip": "DataBaseLayer\\Extensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T14:25:21.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\appsettings.json",
-              "RelativeDocumentMoniker": "back\\appsettings.json",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\back\\appsettings.json",
-              "RelativeToolTip": "back\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-13T12:57:39.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DBProvider.cs",
-              "DocumentMoniker": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLayer\\DBProvider.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\DBProvider.cs",
-              "ToolTip": "C:\\Users\\arkad\\ToDoWebAPI\\back\\DataBaseLayer\\DBProvider.cs",
-              "RelativeToolTip": "DataBaseLayer\\DBProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T12:19:48.251Z"
+              "WhenOpened": "2026-10-28T14:53:26.888Z"
             }
           ]
         }

@@ -8,11 +8,11 @@ namespace BuisenessLogic.Entities
 {
     public class User
     {
-        Guid Id { get; set; } = Guid.NewGuid();
-        string password { get; set; }
-        string nickName { get; set; }
-        string firstName { get; set; }
-        string lastName { get; set; }
-        string email { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public string Password { get; set; }
+        public string UserName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
     }
 }
