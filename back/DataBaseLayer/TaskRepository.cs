@@ -52,18 +52,18 @@ namespace DataBaseLayer
         {
             using (IDbConnection db = new SqlConnection(connstring))
             {
-                var response = await db.QueryAsync<ToDo>("SELECT * FROM Task WHERE ID = @id AND UserID = @userID", new { @id = id, @userID = userId });
-                return response.FirstOrDefault();
+                ToDo response = (await db.QueryAsync<ToDo>("SELECT * FROM Task WHERE ID = @id AND UserID = @userID", new { @id = id, @userID = userId })).First();
+                return response;
             }
         }
 
         public async Task<bool> PostTaskAsync(ToDo task)
         {
-            int rows;
+            int response;
 
             using (IDbConnection db = new SqlConnection(connstring))
             {
-                 rows = await db.ExecuteAsync(
+                 response = await db.ExecuteAsync(
     "INSERT INTO Task (ID, UserID, Title, Description, StartDate, CreateDate, Status, EndDate) " +
     "VALUES (@id, @title, @desc, @start, @create, @stat, @end)",
     new
@@ -72,29 +72,28 @@ namespace DataBaseLayer
         @userId = task.UserId,
         @title = task.Title,
         @desc = task.Description,
-        @start = task.StartTime,
-        @create = task.CreateTime,
+        @start = task.StartDate,
+        @create = task.CreateDate,
         @stat = task.Status,
-        @end = task.EndTime
+        @end = task.EndDate
     });
             }
-            return rows > 0;
+            return response > 0;
         }
 
         public async Task<bool> UpdateTaskAsync(ToDo newTask)
         {
             using (IDbConnection db = new SqlConnection(connstring))
             {
-                ToDo oldTask = await GetTaskByIdAsync(newTask.Id, newTask.UserId);
                 int response = await db.ExecuteAsync("UPDATE Task SET Title = @title, Description = @desc, StartDate = @start, EndDate = @end WHERE ID = @id AND UserID = @userID",
                     new
                     {
                         @id = newTask.Id,
                         @userId = newTask.UserId,
-                        @title = newTask.Title == null ? oldTask.Title : newTask.Title,
-                        @desc = newTask.Description == null ? oldTask.Description : newTask.Description,
-                        @start = newTask.StartTime == null ? oldTask.StartTime : newTask.StartTime,
-                        @end = newTask.EndTime == null ? oldTask.EndTime : newTask.EndTime
+                        @title = newTask.Title,
+                        @desc = newTask.Description,
+                        @start = newTask.StartDate,
+                        @end = newTask.EndDate
                     });
                 return response > 0;
             }

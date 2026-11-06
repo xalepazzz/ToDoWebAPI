@@ -7,6 +7,10 @@
         public ExceptionLogger(IConfiguration _conf)
         {
             filepath = _conf.GetValue<string>("LoggerPath:FilePath");
+            if (filepath == null)
+            {
+                throw new InvalidOperationException("Filepath is null");
+            }
         }
         public async Task LogAsync(string data)
         {

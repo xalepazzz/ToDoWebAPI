@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\Projects\\ToDoWebAPI\\back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C3886ED-171D-43F7-BC85-5DA87EFD5563}|DataBaseLogic\\DataBaseLogic.csproj|d:\\projects\\todowebapi\\back\\databaselogic\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3886ED-171D-43F7-BC85-5DA87EFD5563}|DataBaseLogic\\DataBaseLogic.csproj|solutionrelative:databaselogic\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|d:\\projects\\todowebapi\\back\\buisenesslogic\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|solutionrelative:buisenesslogic\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|d:\\projects\\todowebapi\\back\\buisenesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|solutionrelative:buisenesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CA54426-98F8-498F-9A78-E4A4E00AF388}|Auth\\Auth.csproj|d:\\projects\\todowebapi\\back\\auth\\middlewares\\exceptionlogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA54426-98F8-498F-9A78-E4A4E00AF388}|Auth\\Auth.csproj|solutionrelative:auth\\middlewares\\exceptionlogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|d:\\projects\\todowebapi\\back\\buisenesslogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|solutionrelative:buisenesslogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|d:\\projects\\todowebapi\\back\\back\\middlewares\\exceptionlogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\middlewares\\exceptionlogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|d:\\projects\\todowebapi\\back\\buisenesslogic\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D6CF347-C232-4D7D-9B26-5A5829993D7E}|BuisenessLogic\\BuisenessLogic.csproj|solutionrelative:buisenesslogic\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CA54426-98F8-498F-9A78-E4A4E00AF388}|Auth\\Auth.csproj|d:\\projects\\todowebapi\\back\\auth\\logger\\exlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA54426-98F8-498F-9A78-E4A4E00AF388}|Auth\\Auth.csproj|solutionrelative:auth\\logger\\exlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|d:\\projects\\todowebapi\\back\\back\\logger\\exceptionlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED405EA1-F4A9-EFF6-99C5-351D1885B05D}|back\\back.csproj|solutionrelative:back\\logger\\exceptionlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "BuisenessLogic\\Entities\\User.cs",
-              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Entities\\User.cs",
-              "RelativeToolTip": "BuisenessLogic\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T15:15:06.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\UserService.cs",
-              "RelativeDocumentMoniker": "BuisenessLogic\\UserService.cs",
-              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\UserService.cs",
-              "RelativeToolTip": "BuisenessLogic\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLogic\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseLogic\\UserRepository.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\DataBaseLogic\\UserRepository.cs*",
+              "RelativeToolTip": "DataBaseLogic\\UserRepository.cs*",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAcwF4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T15:08:30.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "BuisenessLogic\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "BuisenessLogic\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T14:59:37.582Z",
+              "WhenOpened": "2026-11-05T14:51:30.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "BuisenessLogic\\Interfaces\\IUserService.cs",
-              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "BuisenessLogic\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\UserService.cs",
+              "RelativeDocumentMoniker": "BuisenessLogic\\UserService.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\BuisenessLogic\\UserService.cs",
+              "RelativeToolTip": "BuisenessLogic\\UserService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwEUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T14:53:26.888Z",
+              "WhenOpened": "2026-11-05T14:48:39.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExceptionLogMiddleware.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\back\\Middlewares\\ExceptionLogMiddleware.cs",
+              "RelativeDocumentMoniker": "back\\Middlewares\\ExceptionLogMiddleware.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\back\\Middlewares\\ExceptionLogMiddleware.cs",
+              "RelativeToolTip": "back\\Middlewares\\ExceptionLogMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T14:43:51.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionLogMiddleware.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\Auth\\Middlewares\\ExceptionLogMiddleware.cs",
+              "RelativeDocumentMoniker": "Auth\\Middlewares\\ExceptionLogMiddleware.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\Auth\\Middlewares\\ExceptionLogMiddleware.cs",
+              "RelativeToolTip": "Auth\\Middlewares\\ExceptionLogMiddleware.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T14:39:33.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionLogger.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\back\\Logger\\ExceptionLogger.cs",
+              "RelativeDocumentMoniker": "back\\Logger\\ExceptionLogger.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\back\\Logger\\ExceptionLogger.cs",
+              "RelativeToolTip": "back\\Logger\\ExceptionLogger.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T14:43:49.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExLogger.cs",
+              "DocumentMoniker": "D:\\Projects\\ToDoWebAPI\\back\\Auth\\Logger\\ExLogger.cs",
+              "RelativeDocumentMoniker": "Auth\\Logger\\ExLogger.cs",
+              "ToolTip": "D:\\Projects\\ToDoWebAPI\\back\\Auth\\Logger\\ExLogger.cs",
+              "RelativeToolTip": "Auth\\Logger\\ExLogger.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T14:43:36.427Z",
               "EditorCaption": ""
             }
           ]

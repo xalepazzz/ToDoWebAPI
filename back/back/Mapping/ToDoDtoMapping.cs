@@ -12,9 +12,9 @@ namespace back.Mapping
                 Id = toDo.Id,
                 Title = toDo.Title,
                 Description = toDo.Description,
-                StartTime = toDo.StartTime,
-                CreateTime = toDo.CreateTime,
-                EndTime = toDo.EndTime
+                StartTime = toDo.StartDate,
+                CreateTime = toDo.CreateDate,
+                EndTime = toDo.EndDate
             };
         }
 

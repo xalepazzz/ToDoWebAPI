@@ -27,7 +27,7 @@ namespace back.Middlewares
 
     }
 
-    public static class ExcrptionLogMiddlewareExtensions
+    public static class ExceptionLogMiddlewareExtensions
     {
         public static void UseLogger(this IApplicationBuilder builder)
         {

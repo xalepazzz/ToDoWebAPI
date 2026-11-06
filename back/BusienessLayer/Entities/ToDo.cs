@@ -10,10 +10,10 @@ namespace BusienessLayer.Entities
         public Guid UserId {  get; set; }
         public string Title { get; set; }
         public string? Description { get; set; } = null;
-        public DateTime? StartTime { get; set; } = null;
-        public DateTime CreateTime { get; set; } = DateTime.UtcNow;
+        public DateTime? StartDate { get; set; } = null;
+        public DateTime CreateDate { get; set; } = DateTime.UtcNow;
         public bool Status { get; set; } = false;
-        public DateTime? EndTime { get; set; } = null;
+        public DateTime? EndDate { get; set; } = null;
 
 
     }

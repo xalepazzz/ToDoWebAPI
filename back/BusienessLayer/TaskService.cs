@@ -44,8 +44,8 @@ namespace BusienessLayer
                 new ToDo { UserId = userId,
                     Title = title,
                     Description = description,
-                    StartTime = startDate,
-                    EndTime = endTime
+                    StartDate = startDate,
+                    EndDate = endTime
                 };
 
             var response = await  _repos.PostTaskAsync(task);
@@ -54,19 +54,20 @@ namespace BusienessLayer
 
         public async Task<bool> UpdateTaskAsync(Guid id, Guid userId, string? title, string? description, DateTime? startDate, DateTime? endDate)
         {
-            ToDo newtask =
+            var task = await GetTaskByIdAsync(id, userId);
+            ToDo newTask =
                new ToDo
                {
                    Id = id,
                    UserId = userId,
-                   Title = title,
-                   Description = description,
-                   StartTime = startDate,
-                   EndTime = endDate
+                   Title = title == null ? task.Title : title,
+                   Description = description == null ? task.Description : description,
+                   StartDate = startDate == null ? task.StartDate : startDate,
+                   EndDate = endDate == null ? task.EndDate : endDate
                };
 
-            var response = await _repos.UpdateTaskAsync(newtask);
-            return response; 
+            var response = await _repos.UpdateTaskAsync(newTask);
+            return response;
         }
     }
 }

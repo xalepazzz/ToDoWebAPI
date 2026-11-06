@@ -1,39 +1,95 @@
 ﻿using System.Runtime.InteropServices;
 using BCrypt;
+using BuisenessLogic.Entities;
 using BuisenessLogic.Interfaces;
 
 namespace BuisenessLogic
 {
     public class UserService : IUserService
     {
-        public Task<bool> AddUserAsync(string userName, string firstname, string lastname, string email)
+        private readonly IUserRepository _repos;
+        public UserService(IUserRepository repos)
         {
-            throw new NotImplementedException();
+            _repos = repos;
+        }
+        public async Task<bool> AddUserAsync(string userName, string password, string firstname, string lastname, string email)
+        {
+            User user = new User
+            {
+                UserName = userName,
+                Password = BCrypt.Net.BCrypt.HashPassword(password, workFactor: 12),
+                FirstName = firstname,
+                LastName = lastname,
+                Email = email
+            };
+            var response = await _repos.CreateUserAsync(user);
+            return (response);
         }
 
-        public Task<bool> GetUserByEmailAsync(string Email)
+        public async Task<User> GetUserByEmailAsync(string Email)
         {
-            throw new NotImplementedException();
+            var response = await _repos.GetUserByEmailAsync(Email);
+            return response;
         }
 
-        public Task<bool> GetUserByIdAsync(Guid userId)
+        public async Task<User> GetUserByIdAsync(Guid userId)
         {
-            throw new NotImplementedException();
+            var response = await _repos.GetUserByIdAsync(userId);
+            return response;
         }
 
-        public Task<bool> GetUserByUserNameAsync(string userName)
+        public async Task<User> GetUserByUserNameAsync(string userName)
         {
-            throw new NotImplementedException();
+            var response = await _repos.GetUserByUserNameAsync(userName);
+            return response;
+        }
+        public async Task<List<User>> GetAllUsersAsync()
+        {
+            var response = await _repos.GetAllUsersAsync();
+            return response;
         }
 
-        public Task<bool> RemoveUserAsync(Guid id)
+        public async Task<bool> RemoveUserAsync(Guid id)
         {
-            throw new NotImplementedException();
+            var response = await _repos.DeleteUserAsync(id);
+            return response;
         }
 
-        public Task<bool> UpdateUserAsync(Guid userId, string? userName, string? firstname, string? lastname, string? email)
+        public async Task<bool> UpdateUserAsync(Guid userId, string? password, string? username, string? firstname, string? lastname, string? email)
         {
-            throw new NotImplementedException();
+            var user = await GetUserByIdAsync(userId);
+            User newUser = new User
+            {
+                Id = userId,
+                UserName = username == null ? user.UserName : username,
+                Password = password == null ? user.Password : BCrypt.Net.BCrypt.HashPassword(password, workFactor:12),
+                FirstName = firstname == null ? user.FirstName : firstname,
+                LastName = lastname == null ? user.LastName : lastname,
+                Email = email == null ? user.Email : email
+            };
+            var response = await _repos.UpdateUserAsync(newUser);
+            return response;
+        }
+
+        public async Task<bool> Login(string input, string password)
+        {
+            User user;
+            if (input.Contains("@gmail.com")) 
+            {
+                user = await GetUserByEmailAsync(input);
+            }
+            else
+            {
+                user = await GetUserByUserNameAsync(input);
+            }
+
+            if (user == null) { throw new InvalidDataException("User not found."); }
+
+            if (BCrypt.Net.BCrypt.Verify(password, user.Password))
+            {
+                return true;
+            }
+            else { return false; }
         }
     }
 }

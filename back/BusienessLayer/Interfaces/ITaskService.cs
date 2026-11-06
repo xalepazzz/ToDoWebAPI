@@ -1,5 +1,4 @@
-﻿using BusienessLayer.DTO;
-using BusienessLayer.Entities;
+﻿using BusienessLayer.Entities;
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
